@@ -9,9 +9,9 @@ using namespace std;
 #define sub(a,b) a-b
 int main()
 {
-    cout<<mul(5,4)<<endl;
-    cout<<div(5,4)<<endl;
-    cout<<add(5,4)<<endl;
-    cout<<sub(5,4)<<endl;
+    cout<<mul(8,4)<<endl;
+    cout<<div(8,4)<<endl;
+    cout<<add(8,4)<<endl;
+    cout<<sub(8,4)<<endl;
     return 0;
 }
