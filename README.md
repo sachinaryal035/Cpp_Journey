@@ -52,13 +52,6 @@ inline int add(int a, int b)
 
 The compiler may ignore the `inline` suggestion based on optimization decisions.
 
-## Getting Started
-
-Each `.cpp` file in this repository is a standalone, compilable program. To run any example:
-
-```bash
-g++ filename.cpp -o output && ./output
-```
 
 ## Learning Path
 

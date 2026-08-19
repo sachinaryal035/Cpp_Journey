@@ -18,12 +18,14 @@ int area(int length) {
 
 int main() {
     int area_rectangle, area_square, length, breadth;
-    cout << "Enter length and breadth of rectangle: "<< endl;
+    cout << "Enter length and breadth of rectangle: "<<endl;
     cin >> length >> breadth;
     area_rectangle = area(length, breadth);
-    cout << "Area of rectangle: " << area_rectangle << endl;
+    cout << "Area of rectangle: " << area_rectangle <<endl;
+    cout << "Enter length of the square: "<<endl;
+    cin >> length;
     area_square = area(length);
-    cout << "Area of square: " << area_square << endl;
+    cout << "Area of square: " << area_square <<endl;
 
 
     return 0;
